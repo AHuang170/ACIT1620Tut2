@@ -1,0 +1,59 @@
+#control{
+    position:fixed;
+    left:-200px;
+    top:30px;
+    width:200px;
+    background-color:rgba(200,200,200,0.5);
+    transition:left 0.5s;
+    
+}
+
+#bgImageBox{
+    width:100%;
+    text-align:center;
+}
+
+.bgThumbs{
+    width:80%;
+    height:auto;
+    margin:10px auto 10px auto;
+}
+
+#open{
+    width:35%;
+    height:50px;
+    position:absolute;
+    right:-70px;
+    top:0;
+    background-color:rgba(200,200,200,0.5)
+}
+
+#close{
+    width:35%;
+    height:50px;
+    position:absolute;
+    right:-70px;
+    bottom:0;
+    background-color:rgba(200,200,200,0.5)
+}
+
+#openimg{
+    height:100%;
+}
+
+#closeimg{
+    height:100%;
+}
+
+/*BACKGROUND IMAGE DIV*/
+#backgroundImage{
+    width:100vw;
+    height:100vh;
+    background-image:url(Image/img1.jpeg);
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+
+
